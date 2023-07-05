@@ -227,7 +227,7 @@ def AddBaseAdmin():
     for i in amenities:
         db.session.add(i)
         db.session.commit()
-    admin = User(id=0, firstname="spoorthi",lastname="kommera", email="spoorthikommera@gmail.com",username="spoorthi", password="1234", address=" anantapur , andhra pradesh", age=19, gender="female", rollstd="RS001",usertype="Admin")
+    admin = User(id=0, firstname="nithyasree",lastname="vadapalli", email="nithyasreevadapalli727@gmail.com",username="nithya", password="1234", address=" Hyderabad , Telangana", age=19, gender="female", rollstd="RS001",usertype="Admin")
     val=Authentication(id=0,val=1)
     db.session.add(admin)
     db.session.add(val)
